@@ -66,8 +66,13 @@
             // 
             // cbxGeral
             // 
+            this.cbxGeral.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbxGeral.DropDownHeight = 80;
+            this.cbxGeral.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxGeral.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxGeral.FormattingEnabled = true;
+            this.cbxGeral.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.cbxGeral.IntegralHeight = false;
             this.cbxGeral.Items.AddRange(new object[] {
             "Acre",
             "Alagoas",
@@ -96,7 +101,7 @@
             "São Paulo",
             "Sergipe",
             "Tocantins"});
-            this.cbxGeral.Location = new System.Drawing.Point(294, 55);
+            this.cbxGeral.Location = new System.Drawing.Point(294, 51);
             this.cbxGeral.Name = "cbxGeral";
             this.cbxGeral.Size = new System.Drawing.Size(207, 37);
             this.cbxGeral.Sorted = true;
@@ -146,8 +151,11 @@
             // 
             // cbxNorte
             // 
+            this.cbxNorte.DropDownHeight = 80;
+            this.cbxNorte.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxNorte.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxNorte.FormattingEnabled = true;
+            this.cbxNorte.IntegralHeight = false;
             this.cbxNorte.Location = new System.Drawing.Point(294, 134);
             this.cbxNorte.Name = "cbxNorte";
             this.cbxNorte.Size = new System.Drawing.Size(207, 37);
@@ -187,8 +195,11 @@
             // 
             // cbxNordeste
             // 
+            this.cbxNordeste.DropDownHeight = 80;
+            this.cbxNordeste.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxNordeste.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxNordeste.FormattingEnabled = true;
+            this.cbxNordeste.IntegralHeight = false;
             this.cbxNordeste.Location = new System.Drawing.Point(294, 213);
             this.cbxNordeste.Name = "cbxNordeste";
             this.cbxNordeste.Size = new System.Drawing.Size(207, 37);
@@ -228,8 +239,11 @@
             // 
             // cbxCentroOeste
             // 
+            this.cbxCentroOeste.DropDownHeight = 80;
+            this.cbxCentroOeste.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxCentroOeste.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxCentroOeste.FormattingEnabled = true;
+            this.cbxCentroOeste.IntegralHeight = false;
             this.cbxCentroOeste.Location = new System.Drawing.Point(294, 292);
             this.cbxCentroOeste.Name = "cbxCentroOeste";
             this.cbxCentroOeste.Size = new System.Drawing.Size(207, 37);
@@ -269,8 +283,11 @@
             // 
             // cbxSudeste
             // 
+            this.cbxSudeste.DropDownHeight = 80;
+            this.cbxSudeste.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxSudeste.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxSudeste.FormattingEnabled = true;
+            this.cbxSudeste.IntegralHeight = false;
             this.cbxSudeste.Location = new System.Drawing.Point(294, 371);
             this.cbxSudeste.Name = "cbxSudeste";
             this.cbxSudeste.Size = new System.Drawing.Size(207, 37);
@@ -310,8 +327,11 @@
             // 
             // cbxSul
             // 
+            this.cbxSul.DropDownHeight = 80;
+            this.cbxSul.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxSul.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxSul.FormattingEnabled = true;
+            this.cbxSul.IntegralHeight = false;
             this.cbxSul.Location = new System.Drawing.Point(294, 450);
             this.cbxSul.Name = "cbxSul";
             this.cbxSul.Size = new System.Drawing.Size(207, 37);
@@ -368,7 +388,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbxGeral;
         private System.Windows.Forms.Button RemoverGeral;
         private System.Windows.Forms.Label TotalGeral;
         private System.Windows.Forms.Label TotalNorte;
@@ -391,6 +410,7 @@
         private System.Windows.Forms.Button RemoverSul;
         private System.Windows.Forms.ComboBox cbxSul;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox cbxGeral;
     }
 }
 
